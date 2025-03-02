@@ -63,12 +63,12 @@
                             </div>
                             <div>
                                 <p class="font-medium">Task Assigned</p>
-                                <h2 class="text-3xl font-bold">00</h2>
+                                <h2 class="text-3xl font-bold" id="task_assigned">6</h2>
                             </div>
                         </div>
                     </div>
                     <!-- 2nd div -->
-                    <div class="bg-gradient-to-r from-[#3752FD] to-[#9BA8F8] py-8 pl-10 pr-20 flex-grow rounded-xl">
+                    <div class="bg-gradient-to-r from-[#3752FD] to-[#9BA8F8] py-8 pl-10 pr-20 flex-grow rounded-xl cursor-pointer" id="discover_something">
                         <div class="flex gap-5 items-center">
                             <img src="assets/board.png" alt="">
                             <div>
@@ -91,7 +91,7 @@
                 <hr class="border-dashed my-8">
     
                 <!-- cards section start -->
-                <div class="cards grid grid-cols-3 gap-9">
+                <div class="cards grid grid-cols-3 gap-9" id="cards">
                     <!-- 1st card -->
                     <div class="bg-[#F4F7FF] p-6 rounded-2xl">
                       
@@ -107,7 +107,7 @@
                                 <p class="text-[14px]">Deadline</p>
                                 <p class="font-medium mt-1">21 March 2025</p>
                             </div>
-                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg">Completed</button>
+                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg complete_btn">Completed</button>
                         </div> 
                     </div>
                     <!-- 2nd card -->
@@ -125,7 +125,7 @@
                                 <p class="text-[14px]">Deadline</p>
                                 <p class="font-medium mt-1">21 March 2025</p>
                             </div>
-                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg">Completed</button>
+                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg complete_btn">Completed</button>
                         </div> 
                     </div>
                     <!-- 3rd card -->
@@ -144,7 +144,7 @@
                                 <p class="text-[14px]">Deadline</p>
                                 <p class="font-medium mt-1">21 March 2025</p>
                             </div>
-                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg">Completed</button>
+                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg complete_btn">Completed</button>
                         </div> 
                     </div>
                     <!-- 4th card -->
@@ -162,7 +162,7 @@
                                 <p class="text-[14px]">Deadline</p>
                                 <p class="font-medium mt-1">21 March 2025</p>
                             </div>
-                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg">Completed</button>
+                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg complete_btn">Completed</button>
                         </div> 
                     </div>
                     <!-- 5th card -->
@@ -179,7 +179,7 @@
                                 <p class="text-[14px]">Deadline</p>
                                 <p class="font-medium mt-1">21 March 2025</p>
                             </div>
-                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg">Completed</button>
+                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg complete_btn">Completed</button>
                         </div> 
                     </div>
                     <!-- 6th card -->
@@ -196,7 +196,7 @@
                                 <p class="text-[14px]">Deadline</p>
                                 <p class="font-medium mt-1">21 March 2025</p>
                             </div>
-                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg">Completed</button>
+                            <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg complete_btn">Completed</button>
                         </div> 
                     </div>
                 </div>
@@ -209,7 +209,7 @@
                         <img src="assets/activity.png" alt="">
                         <h1 class="m-0 text-[20px] font-medium">Activity Log</h1>
                     </div>
-                    <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg mt-4">Clear History</button>
+                    <button class=" bg-[#3752FD] py-[10px] px-5 text-white font-medium text-[16px rounded-lg mt-4" id="clear_history_btn">Clear History</button>
                 </div>
                 <hr class="border-dashed my-4">
                 <!-- div for show activity -->
@@ -219,6 +219,10 @@
              </aside>
         </section>
     </section>
+
+
+    <script src="utilities/utilities.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
