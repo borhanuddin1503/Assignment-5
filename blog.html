@@ -25,16 +25,13 @@
      <section class="container mx-auto" >
         <header>
             <!-- nav -->
-            <nav class="flex justify-between bg-white p-5 rounded-2xl">
-                <div>
-                    <div class="flex gap-4 items-center">
-                        <img src="assets/logo.png" alt="">
-                        <h1 class="text-3xl font-bold m-0"><span class="font-normal">Dev</span>Board</h1>
-                    </div>
+            <nav class="flex justify-between bg-white p-5 rounded-2xl items-center">
+                <div class="flex gap-4 items-center">
+                    <img src="assets/logo.png" alt="">
+                    <h1 class="text-3xl font-bold m-0"><span class="font-normal">Dev</span>Board</h1>
                 </div>
-                <div>
-                    <button class=" bg-[#3752FD] py-[14px] px-5 text-white font-medium text-[16px rounded-lg mt-4" id="back_to_desk">Back to Desk</button>
-                </div>
+                <button class=" bg-[#3752FD] py-[14px] px-5 text-white font-medium text-[16px rounded-lg " id="back_to_desk">Back to Desk</button>
+                
             </nav>
 
             <h1 class="font-bold text-center text-[25px]">Blogs</h1>
@@ -58,7 +55,7 @@
                     <hr class="border-dashed">
 
                     <p class="leading-6  text-xl my-5">
-                        We can use getElementById() and getElementsByTagName() and getElementsByClassName() and querySelector() and querySelectorAll()
+                        innerHtml gives us html and we can set html using innerHtml. In the case of innerText it gives us only visibled text,but textContent gives us hidden text also. textContent is faster than innerText
                     </p>
                  </div>
                 <!-- 3rd question -->
@@ -68,7 +65,7 @@
                     <hr class="border-dashed">
 
                     <p class="leading-6  text-xl my-5">
-                        We can use getElementById() and getElementsByTagName() and getElementsByClassName() and querySelector() and querySelectorAll()
+                        We can attach event listener to parent element instead of multiple child elements.which will Works even for elements created late.
                     </p>
                  </div>
                 <!-- 4th question -->
@@ -78,7 +75,7 @@
                     <hr class="border-dashed">
 
                     <p class="leading-6  text-xl my-5">
-                        We can use getElementById() and getElementsByTagName() and getElementsByClassName() and querySelector() and querySelectorAll()
+                        In event bubbling an event occurs on a child element, it first executes the event on that element, then moves up to its parent, grandparent, and so on
                     </p>
                  </div>
                 <!-- 5th question -->
@@ -88,7 +85,7 @@
                     <hr class="border-dashed">
 
                     <p class="leading-6  text-xl my-5">
-                        We can use getElementById() and getElementsByTagName() and getElementsByClassName() and querySelector() and querySelectorAll()
+                        We can creat elements using document.creatElement() , we can remove element by remove() or removeChild();
                     </p>
                  </div>
              </div>
